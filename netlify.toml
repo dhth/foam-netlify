@@ -1,0 +1,5 @@
+[build]
+  publish = "_layouts/public"
+  command = "cd _layouts && yarn run build"
+[build.environment]
+  YARN_VERSION = "1.22.10"
